@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+    nav{
+        background-color: rgba(0,0,0,0.4);
+    }
+    .nav-item{
+        text-align: center;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 800;
+        font-size: 0.7rem;
+        padding: 0 0.3rem;
+    } 
+    .navbar-brand{
+        border-radius: 1rem;
+        font-size: 0.6rem;
+    }
+    .nav-link{
+        margin:0;
+        border-radius: 1rem;
+    }
+    .nav-link i{
+        padding: 1rem;
+    }
+    #navbarSupportedContent{
+        justify-content: right;
+    }
+    .right{
+        margin-left: auto;
+    }
+</style>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.jsp" style="color:white;">Event Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.jsp" style="color:white;"><i class="fa-solid fa-house-chimney"></i>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color:white;" href="view_events.jsp"><i class="fa-solid fa-martini-glass-citrus"></i>View Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:white;" href="add_event.jsp"><i class="fa-solid fa-champagne-glasses"></i>Add Event</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color:white;" href="update_profile.jsp"><i class="fa-solid fa-address-card"></i>Update Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color:white;" href="change_pwd.jsp"><i class="fa-solid fa-key"></i>Change Password</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color:white;" href="logout.jsp"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+        </li>
+      </ul>
+<!--        <div>
+            <img src="images/profile/img1.png" class="img-fluid user_pic" height="7rem" width="7rem" />
+            <span class="name">Anurag Jaiswal</span>
+        </div>-->
+    </div>
+  </div>
+</nav>

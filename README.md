@@ -25,7 +25,7 @@ Change password
 
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-* ![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+* ![JAVA](https://github.com/anuragjaiswal12/event-management-system/blob/main/images(readme)/java.svg)
 
 * ![JAVA EE](https://img.shields.io/badge/Java-Java_EE-ED1C24?style=for-the-badge&logo=java&logoColor=white)
 

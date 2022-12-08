@@ -50,7 +50,7 @@
                         while(cancelled.next()){
                     %>
                             <div class="col-md-4 col-sm-6">
-                                <div class="card blur text-center">
+                                <div class="card blur text-center" style="margin: 1rem;">
                                     <div class="card-header" style="background-color: rgba(255,51,51,0.4);">
                                         <h4 class="card-title"><% out.print(cancelled.getString(2)); %></h4>
                                     </div>
@@ -82,7 +82,7 @@
                         while(updated.next()){
                         %>
                             <div class="col-md-4 col-sm-6">
-                                <div class="card blur text-center">
+                                <div class="card blur text-center" style="margin: 1rem;">
                                     <div class="card-header" style="background-color: rgba(255,51,51,0.4);">
                                         <h4 class="card-title"><% out.print(updated.getString(2)); %></h4>
                                     </div>
@@ -175,7 +175,7 @@
                         while(past.next()){
                     %>
                             <div class="col-md-4 col-sm-6">
-                                <div class="card blur text-center">
+                                <div class="card blur text-center" style="margin: 1rem;">
                                     <div class="card-header" style="background-color: rgba(255,51,51,0.4);">
                                         <h4 class="card-title"><% out.print(past.getString(2)); %></h4>
                                     </div>

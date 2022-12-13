@@ -42,7 +42,7 @@
                     %>
                     <div class="d-flex justify-content-center" style="margin-top: 2rem;">
                         <div class="alert alert-danger" style="width:50vw">
-                            Cancelled Events
+                            Canceled Events
                         </div>
                     </div>
                     <div class="row" style="margin: 1rem;">
